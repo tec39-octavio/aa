@@ -14,47 +14,39 @@
 </head>
 <body>
 
-<div class="navbar-fixed">
-<!-- Navegation Menu -->
-<nav class="blue darken-1">
-  <!--cuando sea responvise se oculta el menu-->
-  <div class="nav-wrapper nav valign-wrapper" >
-    <img src="img/logo.png" alt="">
-      <h5>AA La Gran Manzana Virtual</h5>
-    <!--
-  <a id="logo-container" href="#" class="brand-logo">
-        <i class="material-icons">code</i>
-        Grupo Sin Fronteras
-      </a>
-      -->
-      <!--antes de logo-->
-    <a href="#" data-target="nav-mobile" class="sidenav-trigger"></a>
-    <!--hide-on-med-and-down (ocultar cuando es responsive)-->
+  <div class="navbar-fixed">
+  <nav class="blue darken-1">
+    <div class="nav-wrapper right ">
+      <div class="nav-wrapper nav valign-wrapper" >
+        <img src="img/logo.png" alt="">
+          <h5 class="text-center">AA La Gran Manzana Virtual</h5>
 
-    <ul class="hide-on-med-and-down right">
-      <li><a href="#reuniones">Agenda</a></li>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons right">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#reuniones">Agenda</a></li>
+            <li><a href="#contacto">Contactános</a></li>
+            <li><a href="https://www.aa.org/es/resources/literature">Literatura</a></li>
+            <li><a href="#septima">7ma tradición</a></li>
+            <li>
+              <a href="https://chat.whatsapp.com/HHFokQ4YpZECywV16I4U8I"><i class="fab fa-whatsapp"></i> WhatsApp
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <img src="img/logo.png" alt="">
+    <li><a href="#reuniones">Agenda</a></li>
       <li><a href="#contacto">Contactános</a></li>
-      <li><a href="#literatura">Literatura</a></li>
+      <li><a href="https://www.aa.org/es/resources/literature">Literatura</a></li>
       <li><a href="#septima">7ma tradición</a></li>
       <li>
         <a href="https://chat.whatsapp.com/HHFokQ4YpZECywV16I4U8I"><i class="fab fa-whatsapp"></i> WhatsApp
       </li>
-    </ul>
-  </div> <!--nav-wrapper-->
-</nav>
-</div>
-  
-<div class="fixed-action-btn">
-  <a class="btn-floating btn-large blue darken-1">
-    <i class="large material-icons">menu</i>
-  </a>
-  <ul>
-    <li><a href="#reuniones" class="btn-floating blue darken-1"><i class="fas fa-user-friends"></i></a>Agenda</li>
-    <li><a href="#contacto" class="btn-floating yellow darken-1"><i class="material-icons">local_phone</i></a>Contactános</li>
-    <li><a href="#septima" class="btn-floating blue"><i class="fab fa-cc-paypal"></i>></a>7ma tradición</li>
-    <li><a href="#literatura" class="btn-floating blue darken-1"><i class="material-icons">library_books</i></a>Literatura</li>
   </ul>
-</div>
+
   <section>
     <div class="row">
       <div class="col s12 m6 l6">
@@ -205,6 +197,7 @@
               <h5>Sábados: Estudio del libro Viviendo Sobrio</h5>
               <h5>Domingo: Estudio del Libro Azul</h5>
               <h5>Último Viernes del cada mes 🎂aniversarios 🎂</h5>
+              <h5>Último Martes de cada mes reunión de trabajo</h5>
             </p>
           </div>
         </div>
@@ -212,46 +205,7 @@
     </div>
   </section>
 
-<!----
-  <section>
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="img/sample-1.jpg">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Los Doce Pasos<i class="material-icons right">more_vert</i></span>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Los doce pasos<i class="material-icons right">close</i></span>
-        <p class="light text-justify">
-          <ul>
-            <li>1. Admitimos que éramos impotentes ante el alcohol, que nuestras vidas se habían vuelto ingobernables.</li>
-            <li>2. Llegamos a creer que un Poder superior a nosotros mismos podría devolvernos el sano juicio.</li>
-            <li>3. Decidimos poner nuestras voluntades y nuestras vidas al cuidado de Dios, como nosotros lo concebimos.</li>
-            <li>4. Sin temor, hicimos un minucioso inventario moral de nosotros mismos.</li>
-            <li>5. Admitimos ante Dios, ante nosotros mismos, y ante otro ser humano, la naturaleza exacta de nuestros defectos.</li>
-            <li>6. Estuvimos enteramente dispuestos a dejar
-              que Dios nos liberase de todos estos defectos de
-              carácter.</li>
-            <li>7. Humildemente le pedimos que nos liberase
-              de nuestros defectos.</li>
-            <li>8. Hicimos una lista de todas aquellas personas a quienes habíamos ofendido y estuvimos
-              dispuestos a reparar el daño que les causamos.</li>
-            <li>9. Reparamos directamente a cuantos nos fue posible, el daño causado, excepto cuando el hacerlo implicaba perjuicio para ellos o para otros.
-            </li>
-            <li>10. Continuamos haciendo nuestro inventario
-              personal y cuando nos equivocábamos lo admitíamos inmediatamente.</li>
-            <li>11. Buscamos, a través de la oración y la meditación, mejorar nuestro contacto consciente con
-              Dios, como nosotros lo concebimos, pidiéndole solamente que nos dejase conocer su voluntad para
-              con nosotros y nos diese la fortaleza para cumplirla.</li>
-            <li>12. Habiendo obtenido un despertar espiritual
-              como resultado de estos pasos, tratamos de llevar este me nsaje a otros alcohólicos y de practicar estos principios en todos nuestros asuntos.</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </section>
------->
+
   <section id="septima">
     <div class="row">
       <div class="col s12 m6 l12">
@@ -261,9 +215,7 @@
             <h5 class="center">
               La Séptima tradición nos recuerda que nos mantenemos con nuestras propias contribuciones. Entre a su cuenta Paypal con su email y password. Haga su contribución. Sino tiene cuenta Paypal click en “sign up” o “abrir cuenta nueva” seguir las instrucciones y hacer la contribución.
               <div class="center">
-                <a class="center" href="http://paypal.me/grupolagranmanzana">
-                  <img  src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" alt="">
-                  </a>
+                <a class="btn btn-large orange lighten-2 white-text waves-effect waves-grey" href="http://paypal.me/grupolagranmanzana"><i class="fab fa-cc-paypal left"></i>Contribuir</a>
               </div>  
             </h5>
           </div>
@@ -272,7 +224,7 @@
     </div>
   </section>
   
-  <section class="container">
+  <section id="contacto" class="container">
     <div class="row">
       <!--contacto-->
       <div class="col s12">
